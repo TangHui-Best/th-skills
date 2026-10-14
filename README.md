@@ -6,8 +6,10 @@
 
 ## 目录约定
 
+采用扁平结构，每个 skill 直接放在仓库根目录下：
+
 ```
-<category>/<skill-name>/
+<skill-name>/
 ├── SKILL.md          # 必需，含 YAML frontmatter（name / description）
 ├── resources/        # 可选，参考资料、模板、示例
 └── scripts/          # 可选，可执行脚本
