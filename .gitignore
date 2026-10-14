@@ -1,0 +1,28 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# Node / Python (skill scripts may generate)
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Local drafts & scratch
+.drafts/
+*.local.md
+scratch/
+
+# Env / secrets
+.env
+.env.*
+*.pem
+*.key
