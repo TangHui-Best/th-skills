@@ -1,0 +1,12 @@
+interface:
+  display_name: th-ppt-skill
+  short_description: 先审视整体主线与单页观点，再画图确认，最后制作简洁可编辑的PPT
+  default_prompt: 请使用 $th-ppt-skill，先明确整份 PPT 的主线和用户收获，再围绕每页核心观点设计图片，确认后制作可编辑 PPT。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
